@@ -50,6 +50,7 @@ src/
 This project relies heavily on a premium, dark-mode-inspired aesthetic:
 - **Bespoke Visuals**: Over-reliance on generic icons is avoided. Instead, bespoke CSS-driven mockups (e.g., iPhone chat frames, CRM dashboards, glowing node graphs) are used to visualize complex AI operations.
 - **Glassmorphism**: Subtle translucent backgrounds (`backdrop-blur`) and glowing gradients (`shadow-[0_0_15px_...]`) are used to create depth.
+- **Custom Animations**: Includes continuous, buttery-smooth CSS hover animations (`animate-float-smooth`) crafted specifically for UI elements like the logo pointer.
 - **Responsive Clip-Paths**: Unique angled section dividers are implemented using CSS `clip-path` calculations synchronized with CSS variables across breakpoints.
 
 ## 🏃‍♂️ Running Locally

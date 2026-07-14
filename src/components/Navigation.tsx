@@ -46,7 +46,7 @@ export const Navigation: React.FC<{
               <div className="relative flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#4ade80] to-[#22c55e] rounded-[10px] transform rotate-6 opacity-40"></div>
                 <div className="bg-gradient-to-br from-[#4ade80] to-[#16a34a] text-[#0d1614] w-[30px] h-[30px] rounded-[8px] flex items-center justify-center font-black text-xl shadow-[0_0_15px_rgba(74,222,128,0.3)] relative z-10 border border-[#4ade80]/50">1</div>
-                <Icon icon="lucide:mouse-pointer-2" className="absolute -bottom-2 -left-2 text-white text-[15px] z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] transform -scale-x-100" strokeWidth="2.5" />
+                <Icon icon="lucide:mouse-pointer-2" className="absolute -bottom-2 -right-2 text-white text-[15px] z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] animate-float-smooth" strokeWidth="2.5" />
               </div>
               <div className="flex flex-col justify-center">
                 <span className="font-heading font-black text-white text-[16px] tracking-tight leading-none mb-1">Click Outcome</span>

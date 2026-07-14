@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               <div className="relative flex items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#4ade80] to-[#22c55e] rounded-[6px] transform rotate-6 opacity-40"></div>
                 <div className="bg-gradient-to-br from-[#4ade80] to-[#16a34a] text-[#0d1614] w-[22px] h-[22px] rounded-[5px] flex items-center justify-center font-black text-sm shadow-[0_0_10px_rgba(74,222,128,0.3)] relative z-10 border border-[#4ade80]/50">1</div>
-                <Icon icon="lucide:mouse-pointer-2" className="absolute -bottom-1 -left-1 text-foreground text-[12px] z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] transform -scale-x-100" strokeWidth="2.5" />
+                <Icon icon="lucide:mouse-pointer-2" className="absolute -bottom-1 -right-1 text-foreground text-[12px] z-20 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] animate-float-smooth" strokeWidth="2.5" />
               </div>
               <div className="flex flex-col justify-center">
                 <span className="font-heading font-black text-foreground text-[16px] tracking-tight leading-none mb-1">Click Outcome</span>

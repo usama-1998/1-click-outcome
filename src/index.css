@@ -69,3 +69,13 @@
     min-height: 100vh;
   }
 }
+
+@layer utilities {
+  @keyframes float-smooth {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+  .animate-float-smooth {
+    animation: float-smooth 2s ease-in-out infinite;
+  }
+}
