@@ -24,18 +24,18 @@ const UseCaseCard: React.FC<UseCaseData> = ({ title, outcome, description, visua
         <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 rounded-2xl pointer-events-none"></div>
       </div>
       <div className="pr-4">
-        <h3 className="font-mono text-[13px] uppercase font-semibold text-white/90 mb-1 leading-relaxed tracking-widest group-hover:text-primary transition-colors">
+        <h3 className="font-mono text-[13px] uppercase font-semibold text-white/90 mb-3 leading-relaxed tracking-widest group-hover:text-primary transition-colors">
           {title}
         </h3>
-        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 mb-4 w-fit">
+        <p className="text-[15px] text-white/60 leading-relaxed mb-4">
+          {description}
+        </p>
+        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit mt-1">
           <Icon icon="lucide:trending-up" className="text-primary text-[13px] shrink-0" />
           <span className="text-[12.5px] font-bold text-primary tracking-wide leading-tight">
             {outcome}
           </span>
         </div>
-        <p className="text-[15px] text-white/60 leading-relaxed">
-          {description}
-        </p>
       </div>
     </div>
   );
@@ -45,7 +45,7 @@ export const UseCases: React.FC = () => {
   const cases: UseCaseData[] = [
     {
       title: "24/7 AI Receptionist",
-      outcome: "18% boost in new revenue from capturing every enquiry",
+      outcome: "18% Revenue Boost",
       description: "Our AI ensures no inbound call or inquiry ever goes unanswered. It engages, qualifies, and books appointments while you sleep.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
@@ -72,7 +72,7 @@ export const UseCases: React.FC = () => {
     },
     {
       title: "Intelligent Lead Reactivation",
-      outcome: "30% increase in booked appointments from dead leads",
+      outcome: "30% More Appointments",
       description: "We deploy automated campaigns to wake up your dormant contacts, turning cold lists and old leads into instant, measurable revenue.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
@@ -95,7 +95,7 @@ export const UseCases: React.FC = () => {
     },
     {
       title: "Referral Automation",
-      outcome: "Generate 5+ organic 5-star Google reviews per week",
+      outcome: "5+ Weekly 5-Star Reviews",
       description: "Engage your satisfied customers automatically. Our systems prompt happy clients to refer others, driving consistent, high-quality organic growth right to your doorstep.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
@@ -129,7 +129,7 @@ export const UseCases: React.FC = () => {
     },
     {
       title: "Custom Backend Automations",
-      outcome: "Save 15+ hours a week in manual admin & CRM entry",
+      outcome: "15+ Hours Saved/Week",
       description: "Say goodbye to manual data entry and task juggling. We integrate cutting-edge AI directly into your CRM and tools to put your operations on autopilot.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
