@@ -14,16 +14,6 @@ const UseCaseCard: React.FC<UseCaseData> = ({ title, outcome, description, visua
       <div className="relative w-full aspect-square rounded-2xl bg-[#0d1614] flex items-center justify-center overflow-hidden border border-white/[0.04] shadow-lg">
         {/* Subtle grid background */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:32px_32px]"></div>
-        
-        {/* Outcome Badge (Floating Top Left) */}
-        <div className="absolute top-4 left-4 z-20 transition-transform duration-500 group-hover:-translate-y-1">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/10 backdrop-blur-md border border-primary/20 shadow-lg">
-            <Icon icon="lucide:trending-up" className="text-primary text-[12px] shrink-0" />
-            <span className="text-[11.5px] font-bold text-primary tracking-wide leading-tight">
-              {outcome}
-            </span>
-          </div>
-        </div>
 
         {/* Bespoke Visual Container */}
         <div className="relative z-10 w-full h-full flex items-center justify-center transition-transform duration-700 group-hover:scale-110">
@@ -33,7 +23,14 @@ const UseCaseCard: React.FC<UseCaseData> = ({ title, outcome, description, visua
         {/* Subtle hover glow */}
         <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 rounded-2xl pointer-events-none"></div>
       </div>
-      <div className="pr-4">
+      <div className="pr-4 flex flex-col items-start">
+        {/* Outcome Badge (Above Title) */}
+        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/20 mb-3 w-fit">
+          <Icon icon="lucide:trending-up" className="text-primary text-[12px] shrink-0" />
+          <span className="text-[11.5px] font-bold text-primary tracking-wide leading-tight">
+            {outcome}
+          </span>
+        </div>
         <h3 className="font-mono text-[13px] uppercase font-semibold text-white/90 mb-3 leading-relaxed tracking-widest group-hover:text-primary transition-colors">
           {title}
         </h3>
