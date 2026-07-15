@@ -28,7 +28,7 @@ const UseCaseCard: React.FC<UseCaseData> = ({ title, outcome, description, visua
           {title}
         </h3>
         <p className="text-[13.5px] font-bold text-primary mb-3">
-          ({outcome})
+          {outcome}
         </p>
         <p className="text-[15px] text-white/60 leading-relaxed">
           {description}
