@@ -130,7 +130,7 @@ export const UseCases: React.FC = () => {
     {
       title: "Custom Backend Automations",
       outcome: "15+ Hours Saved/Week",
-      description: "Say goodbye to manual data entry. We integrate cutting-edge AI into your CRM to put operations on autopilot.",
+      description: "Say goodbye to manual data entry and task juggling. We integrate cutting-edge AI into your CRM to put operations on autopilot.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
           {/* Glowing aura */}
