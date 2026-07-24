@@ -75,7 +75,7 @@ export const WorkspaceMockup: React.FC<{
               {uploadedFile ? uploadedFile.name : "Drop dormant leads CSV"}
             </h4>
             <p className="text-xs text-muted-foreground mt-1">
-              {uploadedFile ? `${(uploadedFile.size / 1024).toFixed(1)} KB` : "AI Reactivation Campaign"}
+              {uploadedFile ? `${(uploadedFile.size / 1024).toFixed(1)} KB` : "Reactivation Campaign"}
             </p>
           </div>
           
@@ -120,7 +120,7 @@ export const WorkspaceMockup: React.FC<{
             {isUploading ? (
               <div className="flex flex-col items-center justify-center h-48 space-y-3">
                 <Icon icon="lucide:loader-2" className="text-3xl text-primary animate-spin" />
-                <p className="text-sm text-muted-foreground">AI is executing backend automations...</p>
+                <p className="text-sm text-muted-foreground">AI is handling the busywork...</p>
               </div>
             ) : (
               <div className="space-y-3 opacity-95 max-h-[280px] overflow-y-auto pr-1">
@@ -128,7 +128,7 @@ export const WorkspaceMockup: React.FC<{
                   <Icon icon="lucide:phone-call" className="text-green-500 text-lg" />
                   <div>
                     <p className="text-xs font-medium text-foreground">Missed Call Intercepted</p>
-                    <p className="text-[10px] text-muted-foreground">AI Receptionist engaged with +1 (555) 019-2831 and booked a 2pm slot.</p>
+                    <p className="text-[10px] text-muted-foreground">System engaged with +1 (555) 019-2831 and booked a 2pm slot.</p>
                   </div>
                 </div>
                 <div className="p-3 bg-background rounded border border-border flex gap-3 items-center">
@@ -152,7 +152,7 @@ export const WorkspaceMockup: React.FC<{
           <div className="mt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <span className="text-xs text-muted-foreground flex items-center gap-1">
               <Icon icon="lucide:circle-check" className="text-primary" /> 
-              {uploadedFile ? "AI Automations running flawlessly." : "Waiting for inbound triggers or lead upload."}
+              {uploadedFile ? "AI Systems running flawlessly." : "Waiting for inbound triggers or lead upload."}
             </span>
             <div className="flex gap-2 w-full sm:w-auto">
               <button 

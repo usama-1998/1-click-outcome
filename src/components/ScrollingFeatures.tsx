@@ -8,10 +8,10 @@ export const ScrollingFeatures: React.FC<{ onActionClick: () => void }> = ({ onA
   const features = [
     {
       badgeIcon: "lucide:phone-call",
-      badgeText: "AI Receptionist",
+      badgeText: "Never Miss a Call Again",
       title: "Never Miss Another Opportunity",
-      description: "When you miss a call, you miss revenue. Our 24/7 AI Receptionist instantly texts back missed calls, engages the prospect in natural conversation, and books them directly onto your calendar.",
-      ctaText: "See AI Receptionist",
+      description: "When you miss a call, you miss revenue. Our 24/7 system instantly texts back missed calls, engages the prospect in natural conversation, and books them directly onto your calendar.",
+      ctaText: "See How It Works",
       ctaHref: "#receptionist",
       visual: (
         <div className="relative w-full h-full flex items-center justify-center p-8">
@@ -58,7 +58,7 @@ export const ScrollingFeatures: React.FC<{ onActionClick: () => void }> = ({ onA
     },
     {
       badgeIcon: "lucide:refresh-cw",
-      badgeText: "Lead Reactivation",
+      badgeText: "Turn Old Leads Into New Money",
       title: "Wake Up Your Dormant Contacts",
       description: "Stop letting old leads gather dust. We deploy intelligent, conversational SMS and Email campaigns to re-engage past prospects, turning cold lists into warm appointments.",
       ctaText: "Reactivate Leads",
@@ -124,7 +124,7 @@ export const ScrollingFeatures: React.FC<{ onActionClick: () => void }> = ({ onA
     },
     {
       badgeIcon: "lucide:users",
-      badgeText: "Referral Automation",
+      badgeText: "Get Reviews & Referrals on Autopilot",
       title: "Turn Happy Clients Into Growth Engines",
       description: "We automatically follow up with your satisfied customers to request reviews and referrals. Build a self-sustaining organic growth engine without any manual follow-up from your team.",
       ctaText: "Automate Referrals",
@@ -168,7 +168,7 @@ export const ScrollingFeatures: React.FC<{ onActionClick: () => void }> = ({ onA
     },
     {
       badgeIcon: "lucide:workflow",
-      badgeText: "Backend Automations",
+      badgeText: "We Handle the Behind-the-Scenes Work",
       title: "Seamless Systems Integration",
       description: "We connect your CRM, calendar, marketing tools, and billing platforms into one unified, intelligent ecosystem. Let AI handle the data entry so you can focus on selling.",
       ctaText: "Explore Integrations",

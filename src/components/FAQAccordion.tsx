@@ -9,30 +9,30 @@ export const FAQAccordion: React.FC<{
   const faqs: FAQItem[] = [
     {
       question: "What exactly is 1 Click Outcome?",
-      answer: "We are an elite AI operations agency that builds, deploys, and manages intelligent automation ecosystems for your business. We handle things like AI Receptionists, Lead Reactivation, and CRM integrations so you can focus on sales."
+      answer: "We are an elite AI operations agency that builds, deploys, and manages intelligent ecosystems for your business. We handle things like Never Miss a Call Again, Turn Old Leads Into New Money, and CRM integrations so you can focus on sales."
     },
     {
-      question: "How does the AI Receptionist work?",
+      question: "How does Never Miss a Call Again work?",
       answer: "When a prospect calls your business and you miss it, our AI instantly sends them a text. It engages them in a natural, human-like conversation to answer their questions, qualify them, and book them directly onto your calendar."
     },
     {
-      question: "Do I have to build the automations myself?",
-      answer: "Not at all. We are a fully managed service. Our expert team maps out your strategy, builds the automations, integrates them with your existing tools, and monitors them 24/7."
+      question: "Do I have to build the systems myself?",
+      answer: "Not at all. We are a fully managed service. Our expert team maps out your strategy, builds the systems, integrates them with your existing tools, and monitors them 24/7."
     },
     {
       question: "Will this integrate with my current CRM?",
       answer: "Yes, we integrate seamlessly with major CRMs including GoHighLevel, HubSpot, Salesforce, Pipedrive, and hundreds of other tools via Zapier and custom APIs."
     },
     {
-      question: "What is Lead Reactivation?",
+      question: "What is Turn Old Leads Into New Money?",
       answer: "Lead Reactivation is a process where we take your old, dead, or dormant leads and send them an intelligent SMS or email sequence to reignite their interest and book them for a call."
     },
     {
       question: "How long does it take to see results?",
-      answer: "Most of our clients see new appointments booked within the first 48 hours of deploying a Lead Reactivation campaign, and immediate ROI from the AI Receptionist intercepting missed calls."
+      answer: "Most of our clients see new appointments booked within the first 48 hours of deploying a reactivation campaign, and immediate ROI from our system intercepting missed calls."
     },
     {
-      question: "Do you offer custom backend automations?",
+      question: "Do you handle the messy behind-the-scenes work?",
       answer: "Absolutely. Whether it's complex onboarding sequences, billing reminders, or operational data flow, we can build custom AI-driven workflows tailored to your specific bottlenecks."
     },
     {

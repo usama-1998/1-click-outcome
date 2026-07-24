@@ -16,7 +16,7 @@ export const WorkflowSteps: React.FC = () => {
             Transform Your Operations in 3 Steps
           </h2>
           <p className="text-lg text-white/70">
-            Whether it's deploying an AI Receptionist for missed calls, or setting up complex CRM syncs, the workflow is always straightforward. Audit, Build, Scale.
+            Whether it's deploying a call intercept system for missed calls, or setting up complex CRM syncs, the workflow is always straightforward. Audit, Build, Scale.
           </p>
         </div>
 
@@ -28,10 +28,10 @@ export const WorkflowSteps: React.FC = () => {
             <div className="flex-1 text-left">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-10 h-10 rounded-full bg-white text-[#101b19] flex items-center justify-center font-bold text-xl shadow-lg">1</div>
-                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">We Analyze Your Bottlenecks</h3>
+                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">We find where you're leaking money</h3>
               </div>
               <p className="text-[17px] text-white/70 leading-relaxed md:ml-14">
-                We map out your current sales process, CRM setup, and lead flow to identify where you're losing money and wasting time. Our experts pinpoint the exact automations that will yield the highest ROI for your specific agency model.
+                We map out your current sales process, CRM setup, and lead flow to identify where you're losing money and wasting time. Our experts pinpoint the exact systems that will yield the highest ROI for your specific agency model.
               </p>
             </div>
             {/* Visual Side */}
@@ -79,17 +79,17 @@ export const WorkflowSteps: React.FC = () => {
             <div className="flex-1 text-left">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-10 h-10 rounded-full bg-white text-[#101b19] flex items-center justify-center font-bold text-xl shadow-lg">2</div>
-                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">Build & Automate</h3>
+                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">We fix it — you do nothing</h3>
               </div>
               <p className="text-[17px] text-white/70 leading-relaxed md:ml-14">
-                We deploy our elite AI operations seamlessly into your ecosystem. Setting up your 24/7 receptionist, reactivation sequences, and deep CRM integrations requires zero technical effort on your end. 
+                We deploy our elite AI operations seamlessly into your ecosystem. Setting up your call intercept, reactivation sequences, and deep CRM integrations requires zero technical effort on your end. 
               </p>
             </div>
             {/* Visual Side */}
             <div className="flex-1 w-full max-w-md bg-[#162522] border border-white/5 rounded-2xl p-6 flex flex-col justify-center relative shadow-2xl">
               <div className="flex items-center gap-3 mb-6 border-b border-white/10 pb-4">
                 <Icon icon="lucide:zap" className="text-[#4ade80] text-xl" />
-                <span className="text-sm font-semibold text-white">AI Automation Deployment</span>
+                <span className="text-sm font-semibold text-white">System Deployment</span>
               </div>
               
               <div className="bg-white rounded-xl p-4 shadow-lg mb-4">
@@ -97,7 +97,7 @@ export const WorkflowSteps: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded bg-blue-100 flex items-center justify-center text-blue-600"><Icon icon="lucide:phone" /></div>
                     <div>
-                      <p className="text-xs font-bold text-black">AI Receptionist</p>
+                      <p className="text-xs font-bold text-black">Call Intercept</p>
                       <p className="text-[10px] text-gray-500">Missed Call Intercept Active</p>
                     </div>
                   </div>
@@ -110,7 +110,7 @@ export const WorkflowSteps: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded bg-purple-100 flex items-center justify-center text-purple-600"><Icon icon="lucide:mail" /></div>
                     <div>
-                      <p className="text-xs font-bold text-black">Lead Reactivation</p>
+                      <p className="text-xs font-bold text-black">Reactivation Sequence</p>
                       <p className="text-[10px] text-gray-500">Syncing with CRM Database...</p>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ export const WorkflowSteps: React.FC = () => {
             <div className="flex-1 text-left">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#4ade80] text-[#101b19] flex items-center justify-center font-bold text-xl shadow-[0_0_15px_rgba(74,222,128,0.3)]">3</div>
-                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">Scale & Profit</h3>
+                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white">Your calendar fills itself</h3>
               </div>
               <p className="text-[17px] text-white/70 leading-relaxed md:ml-14">
                 Watch your calendar fill up with qualified appointments. You and your team just focus on what you do best: closing deals. We handle the follow-ups, the objections, and the busywork.

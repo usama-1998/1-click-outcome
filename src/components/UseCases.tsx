@@ -45,7 +45,7 @@ const UseCaseCard: React.FC<UseCaseData> = ({ title, outcome, description, visua
 export const UseCases: React.FC = () => {
   const cases: UseCaseData[] = [
     {
-      title: "24/7 AI Receptionist",
+      title: "Never Miss a Call Again",
       outcome: "18% Revenue Boost",
       description: "Our AI ensures no inbound call or inquiry ever goes unanswered. It engages, qualifies, and books appointments while you sleep.",
       visual: (
@@ -72,9 +72,9 @@ export const UseCases: React.FC = () => {
       )
     },
     {
-      title: "Intelligent Lead Reactivation",
+      title: "Turn Old Leads Into New Money",
       outcome: "30% More Appointments",
-      description: "We deploy automated campaigns to wake up your dormant contacts, turning cold lists and old leads into instant, measurable revenue.",
+      description: "We deploy outreach that runs itself to wake up your dormant contacts, turning cold lists and old leads into instant, measurable revenue.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
           {/* Glowing aura */}
@@ -95,7 +95,7 @@ export const UseCases: React.FC = () => {
       )
     },
     {
-      title: "Referral Automation",
+      title: "Get Reviews & Referrals on Autopilot",
       outcome: "5+ Weekly 5-Star Reviews",
       description: "Engage satisfied customers automatically. Our systems prompt happy clients to refer others, driving consistent organic growth.",
       visual: (
@@ -129,7 +129,7 @@ export const UseCases: React.FC = () => {
       )
     },
     {
-      title: "Custom Backend Automations",
+      title: "We Handle the Messy Behind-the-Scenes Work",
       outcome: "15+ Hours Saved/Week",
       description: "Say goodbye to manual data entry and task juggling. We integrate cutting-edge AI into your CRM to put operations on autopilot.",
       visual: (
@@ -173,7 +173,7 @@ export const UseCases: React.FC = () => {
           </div>
           <div className="lg:w-[480px] lg:pt-14">
             <p className="text-[15px] md:text-[16px] text-white/80 leading-relaxed">
-              We handle the complex backend automations so you can focus entirely on closing deals and driving revenue. From missed calls to dormant leads, we turn gaps into growth.
+              We handle the busywork so you can focus entirely on closing deals and driving revenue. From missed calls to dormant leads, we turn gaps into growth.
             </p>
           </div>
         </div>

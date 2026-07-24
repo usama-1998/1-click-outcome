@@ -10,7 +10,6 @@ import { ScrollingFeatures } from '../components/ScrollingFeatures';
 import { WorkflowSteps } from '../components/WorkflowSteps';
 import { Testimonial } from '../components/Testimonial';
 import { FAQAccordion } from '../components/FAQAccordion';
-import { PopularForms } from '../components/PopularForms';
 import { Footer } from '../components/Footer';
 
 const Home: React.FC = () => {
@@ -156,8 +155,6 @@ const Home: React.FC = () => {
       <Testimonial />
 
       <FAQAccordion activeFaqIndex={activeFaqIndex} onToggleFaq={toggleFaq} />
-
-      <PopularForms />
 
       <Footer />
     </div>

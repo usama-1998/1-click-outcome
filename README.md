@@ -4,11 +4,11 @@ Welcome to the **1 Click Outcome** frontend repository. This project is a modern
 
 ## 🚀 Overview
 
-1 Click Outcome is an agency focused on helping businesses scale effortlessly by handling complex backend automations. The landing page acts as an interactive portfolio and sales funnel, highlighting core offerings:
-- **24/7 AI Receptionist**: Live Missed Call Text Back demonstrations.
-- **Intelligent Lead Reactivation**: CRM pipeline visuals showing cold leads turning into booked appointments.
-- **Referral Automation**: Generating organic growth via automated Google Reviews.
-- **Custom Backend Automations**: Seamless integrations with Stripe, HubSpot, Zapier, and Calendly.
+1 Click Outcome is an agency focused on helping businesses scale effortlessly by handling the busywork. The landing page acts as an interactive portfolio and sales funnel, highlighting core offerings:
+- **Never Miss a Call Again**: Live call intercept demonstrations.
+- **Turn Old Leads Into New Money**: CRM pipeline visuals showing cold leads turning into booked appointments.
+- **Get Reviews & Referrals on Autopilot**: Generating organic growth via automated Google Reviews.
+- **We Handle the Messy Behind-the-Scenes Work**: Seamless integrations with Stripe, HubSpot, Zapier, and Calendly.
 
 ## 🛠 Tech Stack
 
@@ -34,7 +34,6 @@ src/
 │   ├── WorkflowSteps.tsx # 3-Phase agency process breakdown
 │   ├── Testimonial.tsx  # Interactive client success stories slider
 │   ├── FAQAccordion.tsx # Expandable questions section
-│   ├── PopularForms.tsx # Core capabilities grid
 │   └── Footer.tsx       # Mega footer with watermark
 ├── pages/
 │   └── Home.tsx         # Main entry point orchestrating all components

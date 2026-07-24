@@ -57,9 +57,9 @@ export const Footer: React.FC = () => {
             <div>
               <h4 className="text-foreground font-bold text-[12px] mb-6 tracking-wider uppercase">Services</h4>
               <ul className="space-y-4">
-                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">AI Receptionist</a></li>
-                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Lead Reactivation</a></li>
-                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Referral Automation</a></li>
+                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Never Miss a Call Again</a></li>
+                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Turn Old Leads Into New Money</a></li>
+                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Get Reviews & Referrals on Autopilot</a></li>
                 <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">CRM Integration</a></li>
                 <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Custom Build-outs</a></li>
               </ul>
@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
               <h4 className="text-foreground font-bold text-[12px] mb-6 tracking-wider uppercase">Resources</h4>
               <ul className="space-y-4">
                 <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Blog</a></li>
-                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Automation ROI Calculator</a></li>
+                <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">System ROI Calculator</a></li>
                 <li><a href="#" className="text-[14px] text-muted-foreground hover:text-foreground transition-colors">Free Guides</a></li>
                 <li className="pt-2">
                   <a href="#" className="text-[14px] text-foreground hover:text-white transition-colors inline-flex items-center gap-2">
