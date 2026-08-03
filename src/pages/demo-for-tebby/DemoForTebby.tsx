@@ -32,8 +32,8 @@ const DemoForTebby: React.FC = () => {
   return (
     <div className="min-h-screen w-full bg-background text-foreground flex flex-col relative font-sans overflow-hidden">
       {/* Decorative Line Patterns (Full Page) */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-[6px] md:w-[38px] lg:w-[52px] xl:w-[68px] border-r border-[#31403e] bg-[repeating-linear-gradient(135deg,transparent_0px,transparent_8px,#31403e_8px,#31403e_9px)] bg-[#000000] z-40"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-[6px] md:w-[38px] lg:w-[52px] xl:w-[68px] border-l border-[#31403e] bg-[repeating-linear-gradient(-135deg,transparent_0px,transparent_8px,#31403e_8px,#31403e_9px)] bg-[#000000] z-40"></div>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-[6px] md:w-[38px] lg:w-[52px] xl:w-[68px] border-r border-[#31403e] bg-[repeating-linear-gradient(135deg,transparent_0px,transparent_8px,#31403e_8px,#31403e_9px)] bg-[#14221f] z-40"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-[6px] md:w-[38px] lg:w-[52px] xl:w-[68px] border-l border-[#31403e] bg-[repeating-linear-gradient(-135deg,transparent_0px,transparent_8px,#31403e_8px,#31403e_9px)] bg-[#14221f] z-40"></div>
 
       <Navigation 
         selectedLanguage={selectedLanguage} 
