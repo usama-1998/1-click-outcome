@@ -82,3 +82,7 @@ A `netlify.toml` file is included in the root directory to automatically handle 
 ## 📝 License
 
 © 2026 1 Click Outcome Agency · All rights reserved.
+
+## 🔄 Changelog
+
+- **2026-08-03**: Added `/demo-for-tebby` page migrated from Joopi AI.
