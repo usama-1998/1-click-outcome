@@ -71,10 +71,10 @@ This project relies heavily on a premium, dark-mode-inspired aesthetic:
    npm run build
    ```
 
-## 🚀 Deployment (Netlify)
+## 🚀 Deployment (Cloudflare Pages)
 
-This project is configured for continuous deployment on Netlify.
-A `netlify.toml` file is included in the root directory to automatically handle build settings and client-side routing (SPAs):
+This project is configured for continuous deployment on Cloudflare Pages.
+A `_redirects` file is included in the `public` directory to automatically handle client-side routing (SPAs):
 - **Build Command**: `npm run build`
 - **Publish Directory**: `dist`
 - **Redirects**: All traffic `/*` routes to `/index.html` to prevent 404s on page refresh.
