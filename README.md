@@ -85,4 +85,5 @@ A `_redirects` file is included in the `public` directory to automatically handl
 
 ## 🔄 Changelog
 
+- **2026-08-03**: Updated the mic orb color gradient on the `/demo-for-tebby` page to properly match the brand's primary green theme.
 - **2026-08-03**: Added `/demo-for-tebby` page migrated from Joopi AI.

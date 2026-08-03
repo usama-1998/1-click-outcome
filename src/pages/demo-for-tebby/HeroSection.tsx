@@ -28,7 +28,7 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
           {/* Core Orb */}
           <div 
             onClick={openRetellWidget}
-            className="relative w-[72px] h-[72px] bg-gradient-to-br from-primary via-yellow-500 to-yellow-700 rounded-full flex items-center justify-center shadow-[0_0_40px_rgba(66,193,129,0.6)] z-10 group-hover:scale-110 group-hover:shadow-[0_0_60px_rgba(66,193,129,0.8)] transition-all duration-500 transform-style-3d cursor-pointer"
+            className="relative w-[72px] h-[72px] bg-gradient-to-br from-[#4ade80] to-[#16a34a] rounded-full flex items-center justify-center shadow-[0_0_40px_rgba(74,222,128,0.6)] z-10 group-hover:scale-110 group-hover:shadow-[0_0_60px_rgba(74,222,128,0.8)] transition-all duration-500 transform-style-3d cursor-pointer border border-[#4ade80]/50"
           >
             <div className="absolute inset-1 bg-black/20 rounded-full blur-[2px]"></div>
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.4),transparent)] rounded-full"></div>
