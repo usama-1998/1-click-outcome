@@ -84,7 +84,7 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
             <path d="M9.5 5.13397C10.1667 5.51887 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583333 12.0141 -4.43632e-07 11.5329 -4.09986e-07 10.7631L6.11306e-09 1.23686C3.97864e-08 0.467061 0.583333 -0.0140656 1.25 0.370834L9.5 5.13397Z" fill="black"/>
           </svg>
         </button>
-        <a href="https://cal.com/michael-walding/joopi-30-min-event" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-transparent border border-white/20 hover:border-white/40 text-white font-semibold text-[15px] px-8 py-3.5 rounded-full transition-all flex items-center justify-center gap-2">
+        <a href="https://cal.com/michael-w/1clickoutcome-30-min-event" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-transparent border border-white/20 hover:border-white/40 text-white font-semibold text-[15px] px-8 py-3.5 rounded-full transition-all flex items-center justify-center gap-2">
           <Icon icon="lucide:calendar" className="text-[18px]" />
           Book a Strategy Call
         </a>
