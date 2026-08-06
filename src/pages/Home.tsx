@@ -11,6 +11,7 @@ import { WorkflowSteps } from '../components/WorkflowSteps';
 import { Testimonial } from '../components/Testimonial';
 import { FAQAccordion } from '../components/FAQAccordion';
 import { Footer } from '../components/Footer';
+import { openRetellWidget } from '../components/RetellWidget';
 
 const Home: React.FC = () => {
   // State Variables
@@ -88,7 +89,7 @@ const Home: React.FC = () => {
       <header className="relative border-b border-border bg-card px-6 pt-16 lg:pt-24 pb-16 overflow-hidden">
         {/* Local decorative patterns moved to root */}
 
-        <HeroSection onTryFreeClick={scrollToWorkspace} />
+        <HeroSection onTryFreeClick={openRetellWidget} />
 
         <WorkspaceMockup 
           uploadedFile={uploadedFile}
