@@ -21,13 +21,16 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
         <span className="text-[#4ade80]">without spending any money on ads.</span>
       </h1>
       
-      <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 bg-white/5 border border-white/10 rounded-full px-6 py-3 mb-8 shadow-lg backdrop-blur-sm">
+      <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 bg-white/5 border border-white/10 rounded-full px-6 py-3 mb-8 shadow-lg backdrop-blur-sm">
         <div className="flex items-center gap-2">
           <Icon icon="lucide:shield-check" className="text-[#4ade80] text-xl" />
           <span className="text-base sm:text-[18px] font-medium text-white/90">No upfront cost.</span>
         </div>
         <span className="hidden sm:block text-white/20">•</span>
-        <span className="text-base sm:text-[18px] font-medium text-white/90">We win when you win.</span>
+        <div className="flex items-center gap-2">
+          <Icon icon="lucide:trending-up" className="text-[#4ade80] text-xl" />
+          <span className="text-base sm:text-[18px] font-medium text-white/90">We win when you win.</span>
+        </div>
       </div>
 
       <div className="w-full max-w-[90%] mx-auto h-[2px] mb-8 bg-[repeating-linear-gradient(90deg,transparent,transparent_6px,rgba(255,255,255,0.3)_6px,rgba(255,255,255,0.3)_8px)]" style={{ maskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)', WebkitMaskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)' }}></div>
