@@ -4,11 +4,10 @@ Welcome to the **1 Click Outcome** frontend repository. This project is a modern
 
 ## 🚀 Overview
 
-1 Click Outcome is an agency focused on helping businesses scale effortlessly by handling the busywork. The landing page acts as an interactive portfolio and sales funnel, highlighting core offerings:
-- **Never Miss a Call Again**: Live call intercept demonstrations.
-- **Turn Old Leads Into New Money**: CRM pipeline visuals showing cold leads turning into booked appointments.
-- **Get Reviews & Referrals on Autopilot**: Generating organic growth via automated Google Reviews.
-- **We Handle the Messy Behind-the-Scenes Work**: Seamless integrations with Stripe, HubSpot, Zapier, and Calendly.
+1 Click Outcome is an elite AI operations agency that helps businesses scale using a "Land and Expand" strategy. The landing page is a highly targeted sales funnel focused on **Database Reactivation** as the primary hook:
+- **Database Reactivation**: Turning old warm leads into paying customers without ad spend.
+- **AI Outbound Agents**: Custom AI voice agents that call and book appointments directly into the calendar.
+- **Phase 2 - The Full Stack**: Upselling inbound call handling, review automation, and full CRM integrations.
 
 ## 🛠 Tech Stack
 
@@ -85,5 +84,6 @@ A `_redirects` file is included in the `public` directory to automatically handl
 
 ## 🔄 Changelog
 
+- **2026-08-06**: Redesigned landing page copy, AI agent prompt, and UI mockups to focus entirely on the Database Reactivation strategy.
 - **2026-08-03**: Updated the mic orb color gradient on the `/demo-for-tebby` page to properly match the brand's primary green theme.
 - **2026-08-03**: Added `/demo-for-tebby` page migrated from Joopi AI.
