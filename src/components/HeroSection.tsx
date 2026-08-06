@@ -16,14 +16,14 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
       </div>
       
       <h1 className="font-heading text-4xl sm:text-[44px] md:text-[54px] leading-tight md:leading-[1.1] font-bold tracking-tight mb-6 text-white">
-        Wake up to booked appointments. <br className="hidden lg:block" />
-        No hiring, no follow-up fatigue, <br className="hidden lg:block" />
-        <span className="text-[#4ade80]">and no missed calls.</span>
+        We turn your old warm leads <br className="hidden lg:block" />
+        into paying customers this week <br className="hidden lg:block" />
+        <span className="text-[#4ade80]">without spending money on ads.</span>
       </h1>
       
       <p className="text-base sm:text-[18px] leading-relaxed md:leading-[28px] text-white/90 max-w-3xl mx-auto mb-6 px-2">
-        Stop losing leads to missed calls and forgotten follow-ups. <br className="hidden md:block" /> 
-        We fill your calendar with qualified appointments while you sleep.
+        No upfront cost. <br className="hidden md:block" /> 
+        We win when you win.
       </p>
 
       <div className="w-full max-w-[90%] mx-auto h-[2px] mb-8 bg-[repeating-linear-gradient(90deg,transparent,transparent_6px,rgba(255,255,255,0.3)_6px,rgba(255,255,255,0.3)_8px)]" style={{ maskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)', WebkitMaskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)' }}></div>
@@ -33,17 +33,17 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
           <div className="flex items-center justify-center bg-white text-background rounded-full w-[16px] h-[16px] sm:w-[18px] sm:h-[18px]">
             <Icon icon="lucide:check" className="text-[10px] sm:text-[12px]" strokeWidth="4" />
           </div>
-          <span>Never Miss a Call Again</span>
+          <span>Reactivate Dormant Leads</span>
         </div>
         <span className="text-white/40 hidden md:inline">/</span>
         <div className="flex items-center gap-2">
           <Icon icon="lucide:refresh-cw" className="text-white text-[16px] sm:text-[18px]" strokeWidth="2.5" />
-          <span>Turn Old Leads Into New Money</span>
+          <span>Zero Ad Spend Required</span>
         </div>
         <span className="text-white/40 hidden md:inline">/</span>
         <div className="flex items-center gap-2">
           <Icon icon="lucide:users" className="text-white text-[16px] sm:text-[18px]" strokeWidth="2.5" />
-          <span>Get Reviews & Referrals on Autopilot</span>
+          <span>Book Appointments on Autopilot</span>
         </div>
       </div>
 

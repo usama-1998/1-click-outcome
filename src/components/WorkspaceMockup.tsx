@@ -80,23 +80,23 @@ export const WorkspaceMockup: React.FC<{
           </div>
           
           <div className="bg-card rounded-xl p-4 border border-border">
-            <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">Live Agency Stats</h5>
+            <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">Reactivation Campaign Stats</h5>
             <div className="space-y-2 text-xs">
               <div className="flex justify-between py-1 border-b border-border/30">
-                <span className="text-muted-foreground">Inbound Calls Handled</span>
-                <span className="font-medium text-foreground">142 (Last 24h)</span>
+                <span className="text-muted-foreground">Leads Processed</span>
+                <span className="font-medium text-foreground">1,240 (Last 24h)</span>
               </div>
               <div className="flex justify-between py-1 border-b border-border/30">
                 <span className="text-muted-foreground">Appointments Booked</span>
                 <span className="font-medium text-foreground">28 (+14%)</span>
               </div>
               <div className="flex justify-between py-1 border-b border-border/30">
-                <span className="text-muted-foreground">Reactivation Response</span>
-                <span className="font-medium text-foreground">34% Rate</span>
+                <span className="text-muted-foreground">Reactivation Rate</span>
+                <span className="font-medium text-foreground">34%</span>
               </div>
               <div className="flex justify-between py-1">
-                <span className="text-muted-foreground">Referral Engagements</span>
-                <span className="font-medium text-foreground">56 Active</span>
+                <span className="text-muted-foreground">Revenue Recovered</span>
+                <span className="font-medium text-foreground">$12,450 (Est)</span>
               </div>
             </div>
           </div>
@@ -127,8 +127,8 @@ export const WorkspaceMockup: React.FC<{
                 <div className="p-3 bg-background rounded border border-border flex gap-3 items-center">
                   <Icon icon="lucide:phone-call" className="text-green-500 text-lg" />
                   <div>
-                    <p className="text-xs font-medium text-foreground">Missed Call Intercepted</p>
-                    <p className="text-[10px] text-muted-foreground">System engaged with +1 (555) 019-2831 and booked a 2pm slot.</p>
+                    <p className="text-xs font-medium text-foreground">Outbound Call Answered</p>
+                    <p className="text-[10px] text-muted-foreground">System called Michael P. and successfully booked a Thursday 2pm slot.</p>
                   </div>
                 </div>
                 <div className="p-3 bg-background rounded border border-border flex gap-3 items-center">
@@ -139,10 +139,10 @@ export const WorkspaceMockup: React.FC<{
                   </div>
                 </div>
                 <div className="p-3 bg-background rounded border border-border flex gap-3 items-center">
-                  <Icon icon="lucide:star" className="text-yellow-500 text-lg" />
+                  <Icon icon="lucide:calendar-check" className="text-yellow-500 text-lg" />
                   <div>
-                    <p className="text-xs font-medium text-foreground">Review Request Automated</p>
-                    <p className="text-[10px] text-muted-foreground">Sent automated Google Review link to John D. after successful closing.</p>
+                    <p className="text-xs font-medium text-foreground">Appointment Confirmed</p>
+                    <p className="text-[10px] text-muted-foreground">Synced new booking with John D. to HighLevel Calendar.</p>
                   </div>
                 </div>
               </div>

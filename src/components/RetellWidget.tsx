@@ -160,7 +160,7 @@ export const RetellWidget = () => {
               if (text === 'Retell') {
                 node.textContent = isTebbyDemo ? 'Outbound Agent' : '1 Click Outcome';
               } else if (text === 'Your RetellAI assistant') {
-                node.textContent = isTebbyDemo ? 'Lead Reactivation Demo for Physician Practices' : 'Your AI Sales Agent';
+                node.textContent = isTebbyDemo ? 'Lead Reactivation Demo for Physician Practices' : 'Database Reactivation Specialist';
               } else if (text.includes('Powered by')) {
                 if (node.parentElement) {
                   node.parentElement.style.display = 'none';

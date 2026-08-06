@@ -114,6 +114,10 @@ const Home: React.FC = () => {
       {/* Feature Grid Section */}
       <section className="py-20 border-b border-border bg-card/20">
         <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">Phase 2: Scale Further <span className="text-primary">— The Full Stack</span></h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">Once your database is fully reactivated, we seamlessly layer on our full suite of AI automation tools to handle all incoming leads and scale your operations.</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
