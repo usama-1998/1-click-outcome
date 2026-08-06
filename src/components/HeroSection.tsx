@@ -18,7 +18,7 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
       <h1 className="font-heading text-4xl sm:text-[44px] md:text-[54px] leading-tight md:leading-[1.1] font-bold tracking-tight mb-6 text-white">
         We turn your old warm leads <br className="hidden lg:block" />
         into paying customers this week <br className="hidden lg:block" />
-        <span className="text-[#4ade80]">without spending money on ads.</span>
+        <span className="text-[#4ade80]">without spending any money on ads.</span>
       </h1>
       
       <p className="text-base sm:text-[18px] leading-relaxed md:leading-[28px] text-white/90 max-w-3xl mx-auto mb-6 px-2">
