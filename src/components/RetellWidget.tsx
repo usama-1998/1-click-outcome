@@ -108,8 +108,6 @@ export const RetellWidget = () => {
         // 1 Click Outcome Database Reactivation Agent (Chloe)
         script.setAttribute("data-voice-public-key", "public_key_72d820c4ffc587b80f805");
         script.setAttribute("data-voice-agent-id", "agent_37c580c2bbb4e53bef4c7662f8");
-        script.setAttribute("data-public-key", "public_key_72d820c4ffc587b80f805");
-        script.setAttribute("data-agent-id", "agent_37c580c2bbb4e53bef4c7662f8");
         script.setAttribute("data-title", "1 Click Outcome");
       }
       
