@@ -91,8 +91,8 @@ export const RetellWidget = () => {
 
   useEffect(() => {
     let observer: MutationObserver | undefined;
-    const isTebbyDemo = location.pathname === '/demo-for-tebby';
-    const isRossDemo = location.pathname === '/demo-for-ross';
+    const isTebbyDemo = location.pathname.includes('/demo-for-tebby');
+    const isRossDemo = location.pathname.includes('/demo-for-ross');
 
     if (!document.getElementById("retell-widget")) {
       const script = document.createElement("script");
