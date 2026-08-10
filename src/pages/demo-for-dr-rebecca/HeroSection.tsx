@@ -47,7 +47,7 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
       </h1>
       
       <p className="text-base sm:text-[18px] leading-relaxed md:leading-[28px] text-white/90 max-w-3xl mx-auto mb-6 px-2">
-        Reactivate your patient database on autopilot. Listen to a live demo of our AI agent calling leads who took the "Find Out If It's Menopause" quiz but never booked their free 15-minute consultation.
+        Reactivate your patient database on autopilot. Interact with your custom demo agent below as we demonstrate exactly how it will call leads who took your "Find Out If It's Menopause" quiz and book their free 15-minute consultation.
       </p>
 
       <div className="w-full max-w-[90%] mx-auto h-[2px] mb-8 bg-[repeating-linear-gradient(90deg,transparent,transparent_6px,rgba(255,255,255,0.3)_6px,rgba(255,255,255,0.3)_8px)]" style={{ maskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)', WebkitMaskImage: 'linear-gradient(to right, transparent, black 15%, black 85%, transparent)' }}></div>
