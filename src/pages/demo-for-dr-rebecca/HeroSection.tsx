@@ -42,7 +42,7 @@ export const HeroSection: React.FC<{ onTryFreeClick: () => void }> = ({ onTryFre
       </div>
       
       <h1 className="font-heading text-4xl sm:text-5xl md:text-[62px] leading-tight md:leading-[60px] font-bold tracking-tight mb-6 text-white">
-        Database Reactivation Agent for <br className="hidden sm:block" />
+        Database Reactivation for <br className="hidden sm:block" />
         <span className="text-[#42c181]">Osteopathic Midlife Health</span>
       </h1>
       
