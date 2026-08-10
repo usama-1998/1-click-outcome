@@ -110,7 +110,7 @@ export const RetellWidget = () => {
         // Dr. Rebecca Demo
         script.setAttribute("data-voice-public-key", "public_key_72d820c4ffc587b80f805");
         script.setAttribute("data-voice-agent-id", "agent_6a0b01f3c1096a39840d2b4bb2");
-        script.setAttribute("data-title", "Osteopathic Midlife Health");
+        script.setAttribute("data-title", "Osteopathic Midlife");
       } else if (isRossDemo) {
         // UAE Peptide Clinic Demo (Sarah)
         script.setAttribute("data-voice-public-key", "public_key_72d820c4ffc587b80f805");
@@ -169,7 +169,7 @@ export const RetellWidget = () => {
               
               if (text === 'Retell') {
                 if (isTebbyDemo) node.textContent = 'Outbound Agent';
-                else if (isDrRebeccaDemo) node.textContent = 'Osteopathic Midlife Health';
+                else if (isDrRebeccaDemo) node.textContent = 'Osteopathic Midlife';
                 else if (isRossDemo) node.textContent = 'UAE Peptide Clinic';
                 else node.textContent = '1 Click Outcome';
               } else if (text === 'Your RetellAI assistant') {
