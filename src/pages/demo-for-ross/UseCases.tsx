@@ -116,7 +116,7 @@ export const UseCases: React.FC = () => {
     {
       title: "Cross-Selling Stacks",
       outcome: "Increased LTV",
-      description: "If a patient is already using TB-500, Sarah can naturally suggest exploring a stack with BPC-157 and offer to book a free 10-minute consult to discuss it.",
+      description: "If a patient is already using TB-500, Sarah can naturally suggest exploring the Wolverine or GLOW Stack and offer to book a consult to discuss it.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full">
           {/* Glowing aura */}
@@ -153,7 +153,7 @@ export const UseCases: React.FC = () => {
     {
       title: "Seamless Integration",
       outcome: "DHA-Compliant Sync",
-      description: "Everything syncs directly to your CRM, maintaining privacy and ensuring your doctors have full access to consultation transcripts before the patient arrives.",
+      description: "Everything syncs directly to your CRM. Sarah can even answer logistical questions about next-day AED 50 delivery and temperature indicator strips.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full perspective-[800px]">
           {/* Glowing aura */}

@@ -64,7 +64,7 @@ const DemoForRoss: React.FC = () => {
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
                 <Icon icon="lucide:activity" className="text-primary" />Consultation Booking
               </h3>
-              <p className="text-sm text-muted-foreground">Revive cold leads who inquired about longevity or recovery, qualifying and booking them with your DHA-registered physicians.</p>
+              <p className="text-sm text-muted-foreground">Revive cold leads who inquired about longevity, qualifying them and securing the AED 300 deposit for DHA-registered physicians.</p>
             </div>
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
@@ -74,9 +74,9 @@ const DemoForRoss: React.FC = () => {
             </div>
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
-                <Icon icon="lucide:trending-up" className="text-primary" />Scale Patient Care
+                <Icon icon="lucide:trending-up" className="text-primary" />Upsell Subscriptions
               </h3>
-              <p className="text-sm text-muted-foreground">Reactivate dormant patients on autopilot, increasing cycle adherence and revenue without adding front-desk headcount.</p>
+              <p className="text-sm text-muted-foreground">Reactivate dormant patients and introduce them to Hero or Committed subscription tiers to maximize LTV on autopilot.</p>
             </div>
           </div>
           <div className="text-center pt-8">
