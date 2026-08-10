@@ -70,7 +70,7 @@ const DemoForDrRebecca: React.FC = () => {
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
                 <Icon icon="lucide:shield-check" className="text-primary" />Clinical Authority
               </h3>
-              <p className="text-sm text-muted-foreground">Our AI agents are trained on your specific pharmaceutical-grade offerings, answering basic questions accurately before booking.</p>
+              <p className="text-sm text-muted-foreground">Our AI agents are trained on your specific medical and HRT protocols, answering basic questions accurately before booking.</p>
             </div>
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
