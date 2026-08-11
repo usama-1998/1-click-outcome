@@ -60,8 +60,6 @@ export const Navigation: React.FC<{
             {/* Nav Links */}
             <div className="hidden lg:flex items-center gap-7">
               <a href="#services" className="text-[13.5px] font-bold text-white hover:text-white/80 transition-colors">Services</a>
-              <a href="#case-studies" className="text-[13.5px] font-bold text-white hover:text-white/80 transition-colors">Case Studies</a>
-              <a href="#pricing" className="text-[13.5px] font-bold text-white hover:text-white/80 transition-colors">Pricing</a>
               <a href="#contact" className="text-[13.5px] font-bold text-white hover:text-white/80 transition-colors">Contact</a>
             </div>
           </div>
@@ -107,8 +105,6 @@ export const Navigation: React.FC<{
         {isMobileMenuOpen && (
           <div className="lg:hidden absolute top-[72px] left-0 right-0 bg-[#14221F] border-b border-[#31403E] px-6 py-4 flex flex-col gap-4 shadow-xl animate-in slide-in-from-top-2">
             <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="text-[15px] font-bold text-white hover:text-[#4ade80] transition-colors py-2 border-b border-white/5">Services</a>
-            <a href="#case-studies" onClick={() => setIsMobileMenuOpen(false)} className="text-[15px] font-bold text-white hover:text-[#4ade80] transition-colors py-2 border-b border-white/5">Case Studies</a>
-            <a href="#pricing" onClick={() => setIsMobileMenuOpen(false)} className="text-[15px] font-bold text-white hover:text-[#4ade80] transition-colors py-2 border-b border-white/5">Pricing</a>
             <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="text-[15px] font-bold text-white hover:text-[#4ade80] transition-colors py-2 border-b border-white/5">Contact</a>
             <a href="#login" onClick={() => setIsMobileMenuOpen(false)} className="text-[15px] font-bold text-white hover:text-[#4ade80] transition-colors py-2 md:hidden">Client Login</a>
           </div>
