@@ -78,7 +78,7 @@ export const UseCases: React.FC = () => {
     {
       title: "Cycle Renewals",
       outcome: "Higher Adherence",
-      description: "Sarah tracks when a patient is finishing their BPC-157 or CJC cycle and reaches out to schedule a follow-up, ensuring they stay on their protocol.",
+      description: "Sarah tracks when a patient is finishing their cycle and reaches out to schedule a follow-up, ensuring they stay on their protocol.",
       visual: (
         <div className="relative flex items-center justify-center w-full h-full perspective-[800px]">
           {/* Glowing aura */}

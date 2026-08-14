@@ -203,7 +203,7 @@ export const UseCases: React.FC = () => {
           </div>
           <div className="lg:w-[480px] lg:pt-14">
             <p className="text-[15px] md:text-[16px] text-white/80 leading-relaxed">
-              We build specialized outbound AI agents for premium medical and menopause clinics. They work around the clock to re-engage quiz leads, triage telehealth states, and book introductory calls.
+              We build specialized outbound AI agents for premium medical clinics. They work around the clock to re-engage quiz leads, triage telehealth states, and book introductory calls.
             </p>
           </div>
         </div>

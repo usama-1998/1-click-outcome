@@ -58,13 +58,13 @@ const DemoForRoss: React.FC = () => {
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
                 <Icon icon="lucide:refresh-cw" className="text-primary" />Cycle Renewals
               </h3>
-              <p className="text-sm text-muted-foreground">Automatically re-engage patients finishing their BPC-157 or CJC cycles to ensure ongoing protocol adherence.</p>
+              <p className="text-sm text-muted-foreground">Automatically re-engage patients finishing their cycles to ensure ongoing protocol adherence.</p>
             </div>
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
                 <Icon icon="lucide:activity" className="text-primary" />Consultation Booking
               </h3>
-              <p className="text-sm text-muted-foreground">Revive cold leads who inquired about longevity, qualifying them and securing the AED 300 deposit for DHA-registered physicians.</p>
+              <p className="text-sm text-muted-foreground">Revive cold leads who inquired about longevity, qualifying them and securing the deposit for DHA-registered physicians.</p>
             </div>
             <div className="space-y-3">
               <h3 className="font-heading text-lg font-bold flex items-center gap-2">
