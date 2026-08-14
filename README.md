@@ -84,7 +84,7 @@ A `_redirects` file is included in the `public` directory to automatically handl
 
 ## 🔄 Changelog
 
-- **2026-08-14**: Cleaned up demo page copy for Dr. Rebecca and Ross, removing incorrect peptide and clinic references.
+- **2026-08-14**: Cleaned up demo page copy for Dr. Rebecca, removing incorrect peptide and clinic references that were accidentally copy-pasted.
 - **2026-08-11**: Removed "Case Studies" and "Pricing" links from navigation menus per request.
 - **2026-08-06**: Redesigned landing page copy, AI agent prompt, and UI mockups to focus entirely on the Database Reactivation strategy.
 - **2026-08-03**: Updated the mic orb color gradient on the `/demo-for-tebby` page to properly match the brand's primary green theme.
